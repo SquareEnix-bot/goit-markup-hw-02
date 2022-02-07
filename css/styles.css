@@ -4,6 +4,7 @@
   --main-bg-color: #fff;
   --title-color: #212121;
   --accent-color: #2196f3;
+  --accent-btn-color: #188ce8;
   --secondary-bg-color: #2f303a;
   --third-bg-color: #f5f4fa;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
@@ -57,6 +58,12 @@ address {
 .button {
   color: var(--main-bg-color);
   background-color: var(--accent-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-btn-color);
 }
 
 /* header */
